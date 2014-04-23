@@ -38,3 +38,16 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+gem 'bootstrap-sass'
+gem 'devise'
+gem 'mysql2'
+gem 'pundit'
+gem 'simple_form'
+
+group :development do
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+  gem 'rails_layout'
+end
+
